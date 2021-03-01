@@ -23,14 +23,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func crashButtonTapped(_ sender: AnyObject) {
-        CxxCrashExample();
+//        CxxCrashExample();
         
         print("hello world")
+        
+        
 //        CxxCrash2()
         
 //        CxxCrashStruct()
         
 //        CxxNativeWithiOSStack()
+        
+        let a: MyCrashingCls = MyCrashingCls()
+        print(a)
     }
 
 
