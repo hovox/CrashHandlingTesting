@@ -1,0 +1,6 @@
+framework module RCBacktrace {
+  umbrella header "RCBacktrace-umbrella.h"
+
+  export *
+  module * { export * }
+}

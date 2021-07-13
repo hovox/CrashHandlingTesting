@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57F5FFFB6257F75AE58AF8ACAF27CEB8"
-               BuildableName = "Pods_CrashHandlingTest.framework"
-               BlueprintName = "Pods-CrashHandlingTest"
+               BlueprintIdentifier = "2EC8938A75263E9990C02F5B4788CD1B"
+               BuildableName = "RCBacktrace.framework"
+               BlueprintName = "RCBacktrace"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

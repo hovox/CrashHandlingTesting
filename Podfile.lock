@@ -71,10 +71,12 @@ PODS:
   - nanopb/decode (2.30907.0)
   - nanopb/encode (2.30907.0)
   - PromisesObjC (1.2.12)
+  - RCBacktrace (0.1.7)
 
 DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Crashlytics
+  - RCBacktrace (from `https://github.com/hovox/RCBacktrace`, branch `master`)
 
 SPEC REPOS:
   trunk:
@@ -90,6 +92,16 @@ SPEC REPOS:
     - nanopb
     - PromisesObjC
 
+EXTERNAL SOURCES:
+  RCBacktrace:
+    :branch: master
+    :git: https://github.com/hovox/RCBacktrace
+
+CHECKOUT OPTIONS:
+  RCBacktrace:
+    :commit: 31beef2b13d8112b233a9627d71474f51ad5576e
+    :git: https://github.com/hovox/RCBacktrace
+
 SPEC CHECKSUMS:
   Firebase: fd5e4d2b756292c6e7ee6faac1eb320225d6e97e
   FirebaseAnalytics: 00b7f74571d346ee1ffb9bf0a2e6f2ffff222bcc
@@ -102,7 +114,8 @@ SPEC CHECKSUMS:
   GoogleUtilities: d866834472f1324d080496bc67ab3ce5d0d46027
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  RCBacktrace: 768abe54d460bfbc9ae5a35dd5b8934a3f57a3e7
 
-PODFILE CHECKSUM: 6de5789a872d03c93302bb6b0de50fb7c004d4f2
+PODFILE CHECKSUM: 85d3496ac60f8a37239cb38a5202125c8701a06f
 
 COCOAPODS: 1.10.1

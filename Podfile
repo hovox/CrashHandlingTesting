@@ -7,4 +7,5 @@ target "CrashHandlingTest" do
 
   pod "Firebase/Crashlytics"
   pod "Firebase/Analytics"
+  pod "RCBacktrace", :git => "https://github.com/hovox/RCBacktrace", :branch => "master"
 end
